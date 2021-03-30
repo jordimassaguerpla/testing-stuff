@@ -1,5 +1,6 @@
 name: test-gh
 on: pull_request
+runs-on: ubuntu-latest
 jobs:
   hello:
     steps:
