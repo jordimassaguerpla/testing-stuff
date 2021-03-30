@@ -1,8 +1,8 @@
 name: test-gh
 on: pull_request
-runs-on: ubuntu-latest
 jobs:
   hello:
+    runs-on: ubuntu-latest
     steps:
       - name: hellou
         run: echo "Hello"
