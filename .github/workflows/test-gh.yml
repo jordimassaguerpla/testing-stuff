@@ -1,5 +1,5 @@
 name: test-gh
-on: pull-request
+on: pull-requests
 jobs:
   hello:
     steps:
